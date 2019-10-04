@@ -1,6 +1,17 @@
-/* CSS CODE HERE */
+#header {
+    width: 100%;
+    height: 500px;
+}
 
-/* BACKGROUND */
-body{
-    background: url("images/bg1.svg");
+#aboveNavbar {
+    display: inline-block;
+    width: 100%;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
 }
