@@ -6,12 +6,37 @@
 #aboveNavbar {
     display: inline-block;
     width: 100%;
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 1%;
+}
+
+#navbarImg{
+width: 70%;
+}
+
+#navbarTxt{
+    padding-left: 4%;
+    padding-right: 6%;
+    padding-top: 2%;
+    color: #999;
+    font-size: 18px;
+    line-height: 20px;
+    font-style: italic;
+    font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+}
 }
 
 .right {
     float: right;
+    padding-right: 17%;
 }
 
 .left {
     float: left;
+    padding-left: 10%;
 }
