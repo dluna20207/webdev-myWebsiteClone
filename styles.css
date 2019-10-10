@@ -1,5 +1,8 @@
+/*HEADER*/
+
 #header {
     width: 100%;
+    background-color: white;
 }
 
 #aboveNavbar {
@@ -63,7 +66,7 @@ ul#navbarRight li {
     vertical-align: middle;
 }
 
-#navbarRight{
+#navbarRight {
     padding-left: 35%;
 }
 
@@ -85,4 +88,65 @@ ul#navbarRight li {
     border-left: 1px solid #00244a;
     border-right: 1px solid #5f88af;
     width: 0%;
+}
+
+/*BODY*/
+
+body {
+    background-image: url("images/bg1.svg");
+    background-size: 33%;
+    background-position: top;
+    background-color: #efefef;
+}
+
+#midPhoto {
+    text-align: center;
+    padding-top: 2%;
+}
+
+#midBox {
+    width: 59%;
+    height: 30%;
+    background-color: white;
+    margin: auto;
+    margin-top: 2%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+#tonsOfBoxes {
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.tile {
+    margin: 0 17.5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 165px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    height: 250px;
+    display: inline-block;
+}
+
+.tileImage {
+    width: 90%;
+}
+
+#tileFooter{
+    vertical-align: bottom;
+    display: inline;
+    margin-bottom: 0;
 }
